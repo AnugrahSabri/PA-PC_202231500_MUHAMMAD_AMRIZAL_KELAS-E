@@ -20,19 +20,19 @@ Pengolahan citra digital memiliki aplikasi luas, termasuk dalam bidang medis (mi
 #### 2. Transformasi Geometris
 Transformasi geometris adalah teknik yang digunakan untuk mengubah citra dengan cara mengubah koordinat pikselnya. Teknik ini digunakan dalam berbagai aplikasi untuk mempersiapkan citra dalam bentuk yang diinginkan atau untuk memperbaiki distorsi. Berikut adalah beberapa jenis transformasi geometris yang umum:
  * Rotasi (Rotated)
-Rotasi adalah proses memutar citra dengan sudut tertentu searah jarum jam atau berlawanan arah jarum jam. Fungsi ini digunakan untuk mengubah orientasi citra. Pada contoh ini, citra dirotasi sebesar 45 derajat menggunakan fungsi cv2.getRotationMatrix2D dan cv2.warpAffine dari OpenCV.
+Rotasi adalah proses memutar citra dengan sudut tertentu searah jarum jam atau berlawanan arah jarum jam. Fungsi ini digunakan untuk mengubah orientasi citra. Pada contoh ini, citra dirotasi sebesar 45 derajat menggunakan fungsi `cv2.getRotationMatrix2D` dan `cv2.warpAffine` dari OpenCV.
 
 * Penskalaan (Resized)
-Penskalaan adalah proses mengubah ukuran citra, baik memperbesar maupun memperkecilnya, dengan menggunakan faktor skala tertentu. Penskalaan dapat digunakan untuk menyesuaikan citra ke dalam resolusi yang diinginkan atau untuk normalisasi ukuran citra sebelum analisis lebih lanjut. Fungsi cv2.resize dari OpenCV digunakan untuk melakukan penskalaan.
+Penskalaan adalah proses mengubah ukuran citra, baik memperbesar maupun memperkecilnya, dengan menggunakan faktor skala tertentu. Penskalaan dapat digunakan untuk menyesuaikan citra ke dalam resolusi yang diinginkan atau untuk normalisasi ukuran citra sebelum analisis lebih lanjut. Fungsi `cv2.resize` dari `OpenCV` digunakan untuk melakukan penskalaan.
 
 * Pemotongan (Cropped)
-Pemotongan adalah proses mengambil bagian tertentu dari citra dan menghilangkan bagian lainnya. Ini berguna untuk memfokuskan pada area yang diinginkan atau untuk mengisolasi objek tertentu dalam citra. Pemotongan dilakukan dengan menggunakan slicing pada array numpy yang mewakili citra.
+Pemotongan adalah proses mengambil bagian tertentu dari citra dan menghilangkan bagian lainnya. Ini berguna untuk memfokuskan pada area yang diinginkan atau untuk mengisolasi objek tertentu dalam citra. Pemotongan dilakukan dengan menggunakan slicing pada array `numpy` yang mewakili citra.
 
 * Pembalikan (Flipped)
-Pembalikan adalah proses membalik citra secara horizontal atau vertikal. Teknik ini dapat digunakan untuk menghasilkan efek cermin atau untuk memperbaiki orientasi citra. Fungsi cv2.flip dari OpenCV digunakan untuk melakukan pembalikan.
+Pembalikan adalah proses membalik citra secara horizontal atau vertikal. Teknik ini dapat digunakan untuk menghasilkan efek cermin atau untuk memperbaiki orientasi citra. Fungsi `cv2.flip` dari OpenCV digunakan untuk melakukan pembalikan.
 
 * Translasi (Translated)
-Translasi adalah proses menggeser citra dalam arah horizontal atau vertikal. Ini dilakukan dengan menggunakan matriks translasi dan fungsi cv2.warpAffine dari OpenCV. Translasi berguna untuk mengubah posisi citra dalam bingkai koordinat tanpa mengubah bentuk atau ukurannya.
+Translasi adalah proses menggeser citra dalam arah horizontal atau vertikal. Ini dilakukan dengan menggunakan matriks translasi dan fungsi `cv2.warpAffine` dari OpenCV. Translasi berguna untuk mengubah posisi citra dalam bingkai koordinat tanpa mengubah bentuk atau ukurannya.
 
 # Tahapan Cara Menyelesaikan Proyek
 Siapkan gambar yang akan diolah
@@ -205,8 +205,8 @@ plt.show()
 ```
 Fungsi: Mengatur tata letak subplot agar tidak saling tumpang tindih dan menampilkan semua citra di kanvas.
 
-![App Screenshot](./Screenshots/Capture.PNG)
-![App Screenshot](./Screenshots/Capture2.PNG)
+![App Screenshot](./Screenshots/gambar.PNG)
+![App Screenshot](./Screenshots/gambar2.PNG)
 
 
 
