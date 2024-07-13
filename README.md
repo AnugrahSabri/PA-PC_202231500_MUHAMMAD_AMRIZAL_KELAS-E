@@ -145,7 +145,7 @@ plt.ylim(height, 0)
 ```python
 plt.subplot(2, 3, 2)
 plt.imshow(rotated)
-plt.title('Rotated')
+plt.title('After Rotated')
 plt.xlim(0, rotated.shape[1])
 plt.ylim(rotated.shape[0], 0)
 ```
@@ -154,7 +154,7 @@ plt.ylim(rotated.shape[0], 0)
 ```python
 plt.subplot(2, 3, 3)
 plt.imshow(resized)
-plt.title('Resized')
+plt.title(' After Resized')
 plt.xlim(0, resized.shape[1])
 plt.ylim(resized.shape[0], 0)
 ```
@@ -163,7 +163,7 @@ plt.ylim(resized.shape[0], 0)
 ```python
 plt.subplot(2, 3, 4)
 plt.imshow(cropped)
-plt.title('Cropped')
+plt.title('After Cropped')
 plt.xlim(0, cropped.shape[1])
 plt.ylim(cropped.shape[0], 0)
 ```
@@ -172,7 +172,7 @@ plt.ylim(cropped.shape[0], 0)
 ```python
 plt.subplot(2, 3, 5)
 plt.imshow(flipped)
-plt.title('Flipped')
+plt.title('After Flipped')
 plt.xlim(0, flipped.shape[1])
 plt.ylim(flipped.shape[0], 0)
 ```
@@ -181,7 +181,7 @@ plt.ylim(flipped.shape[0], 0)
 ```python
 plt.subplot(2, 3, 6)
 plt.imshow(translated)
-plt.title('Translated')
+plt.title('AfterTranslated')
 plt.xlim(0, translated.shape[1])
 plt.ylim(translated.shape[0], 0)
 ```
@@ -205,8 +205,8 @@ plt.show()
 ```
 Fungsi: Mengatur tata letak subplot agar tidak saling tumpang tindih dan menampilkan semua citra di kanvas.
 
-![App Screenshot](./Screenshots/gambar.PNG)
-![App Screenshot](./Screenshots/gambar2.PNG)
+![App Screenshot](./Screenshots/picture.PNG)
+![App Screenshot](./Screenshots/picture2.PNG)
 
 
 
