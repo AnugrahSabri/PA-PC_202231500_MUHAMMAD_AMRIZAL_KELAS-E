@@ -1,7 +1,7 @@
 
 # Ulangan Akhir Semester Pengolahan Citra Digital
-#### Nama : Muhammad Amrizal
-#### NIM  : 202231500
+#### Nama : Anugrah Sabri
+#### NIM  : 202231509
 #### 1. Pengolahan Citra Digital
 Pengolahan citra digital adalah proses memanipulasi citra digital menggunakan berbagai algoritma komputer untuk meningkatkan kualitas citra atau mengekstrak informasi yang bermanfaat. Pengolahan citra digital mencakup berbagai teknik dan metode yang dapat diterapkan untuk tujuan yang berbeda, seperti peningkatan kualitas, analisis, dan pengenalan pola. Berikut adalah beberapa teknik utama dalam pengolahan citra digital:
 
